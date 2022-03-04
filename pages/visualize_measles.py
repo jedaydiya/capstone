@@ -95,8 +95,7 @@ def app():
     st.header("Forecasted Data Graph")
     st.line_chart(forecast_df)
 
-    st.header("RMSE Result")
-    st.write("RMSE Result: "+str(np.sqrt(mean_squared_error(test_scaled,test_predictions))))
+ 
 
 
 
